@@ -1,2 +1,1 @@
-# ASCII_VideoPlayer-
-You can render online videos in your terminal in ASCII form 
+If you will copy these cmnd into your terminal and run you can run any video in your terminal in ASCII form 
