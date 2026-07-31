@@ -60,9 +60,11 @@ This gives the video output with sound:
 ```bash
 python -m --width 160 "https://www.youtube.com/watch?v=dQw4w9WgXcQ" --a
 ```
+<br>
 
-If running from source without installing (Option C), replace `ascii-video`
-with `python ascii_video.py` in the commands above.
+> [!IMPORTANT]
+> If running from source without installing (Option C), replace `ascii-video` with `python ascii_video.py` in the commands above.
+<br>
 
 Press `Ctrl+C` at any time to stop playback.
 
