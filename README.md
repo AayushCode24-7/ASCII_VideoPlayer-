@@ -106,3 +106,15 @@ ascii-video --width 160 "https://x.com/someuser/status/12345"
   video, no frame-accurate sync).
 - Some sites throttle or block direct stream URLs; the script automatically
   falls back to downloading the full file in that case.
+<hr>
+<h1>Troubleshooting</h1>
+
+### `ascii-video` is not recognized as an internal or external command
+**Cause:** Python's `Scripts` directory is not added to your system's `PATH` environment variable.
+
+**Solution:**
+Run the script using the Python module syntax instead:
+```cmd
+python -m ascii_video "URL"
+```
+This will solve the issue ☝️
