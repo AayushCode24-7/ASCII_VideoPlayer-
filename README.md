@@ -55,6 +55,12 @@ Or pass the URL directly:
 ascii-video "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 ```
 
+This gives the video output with sound:
+
+```bash
+python -m --width 160 "https://www.youtube.com/watch?v=dQw4w9WgXcQ" --a
+```
+
 If running from source without installing (Option C), replace `ascii-video`
 with `python ascii_video.py` in the commands above.
 
